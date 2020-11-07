@@ -1,0 +1,21 @@
+.checkout__steps {
+  display: flex;
+    
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border-top: 0.3rem solid #c0c0c0;
+    color: #c0c0c0;
+    padding: 1rem;
+    margin: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .active {
+    border-color: #333;
+    color: #333;
+  }
+}

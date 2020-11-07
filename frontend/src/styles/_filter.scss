@@ -1,0 +1,23 @@
+.filter {
+  grid-area: filter;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: fit-content;
+  max-width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 30px;
+  strong {
+    font-size: 1.6rem;
+  }
+  li {
+    font-size: 1.3rem;
+    cursor: pointer;
+    &:hover {
+      color: #4285f4;
+    }
+  }
+}

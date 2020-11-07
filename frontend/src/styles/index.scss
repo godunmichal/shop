@@ -1,0 +1,100 @@
+@import "./variables";
+@import "./navbar";
+@import "./footer";
+@import "./home";
+@import "./product";
+@import "./button";
+@import "./cart";
+@import "./checkout";
+@import "./rating";
+@import "./form";
+@import "./shipping";
+@import "./payment";
+@import "./placeOrder";
+@import "./orderDetails";
+@import "./tables";
+@import "./userProfile";
+@import "./orderHistory";
+@import "./productsList";
+@import "./ordersList";
+@import "./usersList";
+@import "./filter";
+@import "./signin";
+@import "./register";
+
+html {
+  font-size: 62.5%; /* 16px x 62.5 = 10px = 1rem */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+li {
+  margin-top: 1rem;
+}
+
+input,
+select,
+textarea,
+button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #a4a4a4 solid;
+  font-size: 1.6rem;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+button:hover {
+  border: 0.1rem #404040 solid;
+}
+
+/* Alert */
+.loading {
+  display: block !important;
+}
+.success {
+  color: #20a020;
+}
+.danger {
+  color: #a02020;
+}
+.alert {
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+}
+.alert-info {
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+.alert-danger {
+  color: #a02020;
+  background-color: #ffe0e0e0;
+}
+.alert-success {
+  color: #20a020;
+  background-color: #eeffe0;
+}
